@@ -1,0 +1,69 @@
+/* Style de base */
+.header-content {
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.column-1 {
+    padding-right: 20px;
+}
+
+.column-2 {
+    position: relative;
+}
+
+.wrapper {
+    margin-bottom: 20px;
+}
+
+.dynamic-txts {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dynamic-txts li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.text {
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Style mobile */
+@media (max-width: 768px) {
+    .grid-2 {
+        grid-template-columns: 1fr;
+    }
+    .column-1, .column-2 {
+        width: 100%;
+    }
+    .image {
+        margin-top: 20px; 
+    }
+}

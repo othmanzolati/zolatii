@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <main>
+        <header id="header">
+            <nav class="ay">
+                <div class="container">
+                    <div class="logo">
+                        <a href="#header"> <img src="https://zupimages.net/up/24/27/hc51.png" /></a>
+                    </div>
+
+                    <div class="links">
+                        <ul>
+                            <li>
+                                <a href="#header">Home</a>
+                            </li>
+                            <li>
+                                <a href="#services">Services</a>
+                            </li>
+                            <li>
+                                <a href="#portfolio">Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="#about">About</a>
+                            </li>
+
+                            <li>
+                                <a href="#contact">Contact</a>
+                            </li>
+                            <li>
+                                <a href="#hireme" class="active">Hire me</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="hamburger-menu">
+                        <div class="bar"></div>
+                    </div>
+                </div>
+            </nav>
+
+            <br>
+            <br>
+            <div class="container grid-2">
+                <div class="column-1">
+                    <h1 class="header-title">OTHMAN ZOLATI</h1>
+                    <div class="wrapper">
+                        <div class="static-txt">I'm </div>
+                        <ul class="dynamic-txts">
+                            <li><span>Developer</span></li>
+                            <li><span>Designer</span></li>
+                            <li><span>Freelancer</span></li>
+                            <li><span>Developer</span></li>
+                        </ul>
+                    </div>
+                    <p class="text">
+                        Hi, I'm Othman Zolati a passionate web developer with a strong love for coding and building things on the internet. I've been immersed in the world of web development for and it's not just my job it's my passion and hobby rolled into one.
+                    </p>
+                    <br>
+                    <button class="btn"><a href="cv/CV.pdf" class="zlt">Download cv</a></button>
+                </div>
+
+                <div class="column-2 image">
+                    <img src="./img/mpmpmp.png" class="photo" />
+                </div>
+            </div>
+
+        </header>
+        <br>
+        <br>
+        <!-- Services -->
+
+        <section class="services section" id="services">
+            <div class="container">
+                <div class="section-header">
+                    <h3 class="title" data-title="What I Do">Services</h3>
+
+                </div>
+
+                <div class="cards">
+                    <div class="card-wrap">
+                        <div class="card" data-card="UI/UX">
+                            <div class="card-content z-index">
+                                <img src="./img/design-icon.png" class="icon" />
+                                <h3 class="title-sm">Web Design</h3>
+                                <p class="text">
+                                    professional specialized in the visual creation and aesthetic layout of websites and web applications, aiming to offer an attractive and functional user experience.
+                                </p>
+                                <a href="#contact" class="btn small"> Fin out more</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-wrap">
+                        <div class="card" data-card="Code">
+                            <div class="card-content z-index">
+                                <img src="./img/code-icon.png" class="icon" />
+                                <h3 class="title-sm">Web Development</h3>
+                                <p class="text">
+                                    Web development encompasses the creation, design and maintenance of websites accessible via the Internet, requiring a diverse range of skills and technologies.
+                                </p>
+                                <a href="#contact" class="btn small"> Fin out more</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-wrap">
+                        <div class="card" data-card="App">
+                            <div class="card-content z-index">
+                                <img src="./img/app-icon.png" class="icon" alt="" />
+                                <h3 class="title-sm">App Web</h3>
+                                <p class="text">
+                                    Web App refers to the creation of software applications designed to run in a web browser. They are accessible from any device connected to the Internet
+                                    <br>
+                                    <br>
+
+                                </p>
+                                <a href="#contact" class="btn small"> Fin out more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- My Portfolio -->
+
+        <section class="portfolio section" id="portfolio">
+            <div class="background-bg">
+                <div class="overlay overlay-sm">
+                    <img src="./img/shapes/half-circle.png" class="shape half-circle1" alt="" />
+                    <img src="./img/shapes/half-circle.png" class="shape half-circle2" alt="" />
+                    <img src="./img/shapes/square.png" class="shape square" alt="" />
+                    <img src="./img/shapes/wave.png" class="shape wave" alt="" />
+                    <img src="./img/shapes/circle.png" class="shape circle" alt="" />
+                    <img src="./img/shapes/triangle.png" class="shape triangle" alt="" />
+                    <img src="./img/shapes/x.png" class="shape xshape" alt="" />
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="section-header">
+                    <h3 class="title" data-title="My works">Portfolio</h3>
+                </div>
+
+                <div class="section-body">
+                    <div class="filter">
+                        <button class="filter-btn active" data-filter="*">All</button>
+                        <button class="filter-btn" data-filter=".webdev">Web Dev</button>
+                        <button class="filter-btn" data-filter=".webapp">Web App</button>
+                        <button class="filter-btn" data-filter=".logo-design">Logo Design</button>
+                    </div>
+
+                    <div class="grid">
+                        <div class="grid-item logo-design">
+                            <div class="gallery-image">
+                                <img src="./img/portfolio/port3.png" alt="" />
+                                <div class="img-overlay">
+                                    <div class="img-description">
+                                        <h3>Logo Design</h3>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-item webdev ">
+                            <div class="gallery-image">
+                                <img src="./img/portfolio/port1.png" alt="" />
+                                <div class="img-overlay">
+                                    <div class="img-description">
+                                        <h3>Web Development</h3>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid-item webapp">
+                            <div class="gallery-image">
+                                <img src="./img/portfolio/port2.png" />
+                                <div class="img-overlay">
+                                    <div class="img-description">
+                                        <h3>Application Web</h3>
+                                      
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- About ME -->
+
+        <section class="about section" id="about">
+            <div class="section-header">
+                <h3 class="title" data-title="Who Am I">About me</h3>
+            </div>
+            <div class="bono">
+                <p class="ktaba">
+                    I'm a passionate developer who creates exceptional web applications using modern technologies. My journey in development started a few years ago, and since then I have worked with languages ​​and frameworks such as
+                </p>
+            </div>
+            <br>
+            <br>
+            <div class="formeee">
+
+                <div class="frontend">
+                    <button class="btn">FrontEnd</button>
+                    <div class="skill html">
+                        <h3 class="skill-title">HTML</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill css">
+                        <h3 class="skill-title">CSS</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill js">
+                        <h3 class="skill-title">JavaScript</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 60%;"></div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="frontend">
+                    <button class="btn">Backend</button>
+                    <div class="skill laravel">
+                        <h3 class="skill-title">Laravel</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill React">
+                        <h3 class="skill-title">React</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 50%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill php">
+                        <h3 class="skill-title">PHP</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 70%;"></div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="frontend">
+                    <button class="btn">Base Donnee</button>
+                    <div class="skill mysql">
+                        <h3 class="skill-title">MYSQL</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill sql">
+                        <h3 class="skill-title">SQL</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill mongo db">
+                        <h3 class="skill-title">MONGO DB</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 50%;"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- total -->
+
+        <section class="records">
+            <div class="overlay overlay-sm">
+                <img src="./img/shapes/square.png" alt="" class="shape square1" />
+                <img src="./img/shapes/square.png" alt="" class="shape square2" />
+                <img src="./img/shapes/circle.png" alt="" class="shape circle" />
+                <img src="./img/shapes/half-circle.png" alt="" class="shape half-circle" />
+                <img src="./img/shapes/wave.png" alt="" class="shape wave wave1" />
+                <img src="./img/shapes/wave.png" alt="" class="shape wave wave2" />
+                <img src="./img/shapes/x.png" alt="" class="shape xshape" />
+                <img src="./img/shapes/triangle.png" alt="" class="shape triangle" />
+            </div>
+
+            <div class="container">
+                <div class="wrap">
+                    <div class="record-circle">
+                        <h2 class="number" data-num="235">5</h2>
+                        <h4 class="sub-title">Projects</h4>
+                    </div>
+                </div>
+
+                <div class="wrap">
+                    <div class="record-circle active">
+                        <h2 class="number" data-num="174">4</h2>
+                        <h4 class="sub-title">Happy Clients</h4>
+                    </div>
+                </div>
+
+                <div class="wrap">
+                    <div class="record-circle">
+                        <h2 class="number" data-num="892">8</h2>
+                        <h4 class="sub-title">Hours in a Day</h4>
+                    </div>
+                </div>
+
+                <div class="wrap">
+                    <div class="record-circle">
+                        <h2 class="number" data-num="368">2</h2>
+                        <h4 class="sub-title">Awards</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact -->
+
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="contact-box">
+                    <div class="contact-info">
+                        <p class="text">
+                            Need help or have comments to share? Use my contact form to contact me or email me for immediate assistance
+                        </p>
+                        <div class="information-wrap">
+                            <div class="information">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <p class="info-text">Morocco </p>
+                            </div>
+
+                            <div class="information">
+                                <div class="contact-icon">
+                                    <i class="fas fa-paper-plane"></i>
+                                </div>
+                                <p class="info-text">othman.zoulati01@gmail.com</p>
+                            </div>
+
+                            <div class="information">
+                                <div class="contact-icon">
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+                                <p class="info-text"> +212 6 81 98 98 42</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="contact-form" action="https://formspree.io/f/meqyjobe" method="POST">
+                        <h3 class="contact-mee">Contact me</h3>
+                        <div class="row">
+                            <input type="text" class="contact-input" placeholder="First Name" />
+                            <input type="text" class="contact-input" placeholder="Last Name" />
+                        </div>
+
+                        <div class="row">
+                            <input type="text" class="contact-input" placeholder="Phone" />
+                            <input type="email" class="contact-input" placeholder="Email" />
+                        </div>
+
+                        <div class="row">
+                            <textarea name="message" class="contact-input textarea" placeholder="Message"></textarea>
+                        </div>
+                        <button class="btn" type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="hireme" id="hireme">
+            <div class="container">
+                <h3 class="title">Let's talk about a PortFolio</h3>
+                <p class="text">
+                    Thank you very much to all our passionate visitors. Your presence on our site is continued commitment. Together we grow and share a unique experience. Thank you for your exceptional support!
+                </p>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="grid-4">
+                <div class="grid-4-col footer-about">
+                    <h3 class="title-sm">About</h3>
+                    <p class="text">
+                        Use my contact form to call or email me
+                    </p>
+                </div>
+
+                <div class="grid-4-col footer-links">
+                    <h3 class="title-sm">Links</h3>
+                    <ul>
+                        <li>
+                            <a href="#services">Services</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#about">About</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="grid-4-col footer-links">
+                    <h3 class="title-sm">Services</h3>
+                    <ul>
+                        <li>
+                            <a href="#portfolio">Web Design</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio">Web Dev</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio">Web App </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="grid-4-col footer-newstletter">
+                    <h3 class="title-sm">Subscribe</h3>
+                    <p class="text">
+                        Subscribe to never miss the latest updates, exclusive content and special offers!
+                    </p>
+                    <div class="footer-input-wrap">
+                        <input type="email" class="footer-input" placeholder="Email" />
+                        <a href="#" class="input-arrow">
+                            <i class="fas fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom-footer">
+                <div class="copyright">
+                    <p class="text">
+                        Copyright&copy;2022 All rights reserved | Made by
+                        <span>ZOLATI</span>
+                    </p>
+                </div>
+
+                <div class="followme-wrap">
+                    <div class="followme">
+                        <h3>Follow me</h3>
+                        <span class="footer-line"></span>
+                        <div class="social-media">
+                            <a href="https://www.facebook.com/profile.php?id=100018176345601">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://www.instagram.com/othman_zoulati/">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/othman-zolati-b5a0a1272/">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="back-btn-wrap">
+                        <a href="" class="back-btn">
+                            <i class="fas fa-chevron-up"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/isotope.pkgd.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+
+</body>
+
+</html>
